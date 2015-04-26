@@ -76,7 +76,7 @@
 		echo "		<div class=\"menu_item\">\n";
 		echo "			<span class=\"menu_desc\">Enter a Block Index / Height</span><br>\n";
 		echo "			<form action=\"".$_SERVER["PHP_SELF"]."\" method=\"post\">\n";
-		echo "				<input type=\"text\" name=\"block_height\" size=\"40\">\n";
+                echo "                          <input type=\"number\" name=\"block_height\" size=\"40\" placeholder=\"Block Height\" min=\"1\" max=".$network_info["blocks"].">\n";
 		echo "				<input type=\"submit\" name=\"submit\" value=\"Jump To Block\">\n";
 		echo "			</form>\n";
 		echo "		</div>\n";
@@ -108,7 +108,7 @@
 	site_footer ();
 
 /******************************************************************************
-	This script is Copyright © 2013 Jake Paysnoe.
+	This script is Copyright Â© 2013 Jake Paysnoe.
 	I hereby release this script into the public domain.
 	Jake Paysnoe Jun 26, 2013
 ******************************************************************************/
