@@ -1,3 +1,10 @@
+This is a fork of CallMeJake's BlockCrawler
+(https://github.com/CallMeJake/BlockCrawler)
+
+The API support is NOT included in this fork.
+
+Some of the changes implemented in this fork are in production on https://bitcoin-p2pool.com/bitcoin_block_explorer/
+
 Block Crawler Instructions
 
 Ensure that you have the following files:
